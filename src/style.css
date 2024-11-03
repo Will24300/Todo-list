@@ -1,27 +1,65 @@
 body {
-  background-color: #000000f3;
-  color: #fff;
+  background-color: #f5feedf3;
+  color: #111;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
   align-items: center;
-  text-align: center;
   font-family: "Trebuceht Ms";
 }
-h1:first-child {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: teal;
-  width: 350px;
-  margin: 25px auto;
-  padding: 10px 0px;
-  border-radius: 10px;
-}
-button {
+.container {
   background-color: white;
-  padding: 8px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  padding: 20px;
+  height: auto;
+  border-radius: 5px;
+}
+.container .inputBx {
+  margin-bottom: 10px;
+}
+.container .inputBx input {
+  background-color: #f5feedf3;
+  border: none;
+  outline: none;
+  padding: 5px 20px 5px 13px;
+  margin-right: 10px;
+}
+.container .inputBx button {
+  background-color: rgb(85, 40, 8);
   border: none;
   border-radius: 15px;
-
+  color: white;
+  padding: 5px 15px;
+  font-size: 13px;
   cursor: pointer;
+}
+.container ul {
+  background-color: #f5feedf3;
+  width: 80%;
+  padding: 3px 0px;
+  margin: 5px auto;
+}
+.container ul li {
+  list-style: none;
+  /* padding: 0px 15px; */
+  font-weight: 400;
+}
+.container .deleteBtn {
+  font-size: 12px;
+  background-color: rgb(85, 40, 8);
+  color: white;
+  border-radius: 100%;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+.listWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 7px;
 }
